@@ -1,5 +1,5 @@
 
-# Python Codehive
+# Python CodeHive
 
 **Python CodeHive** is an organized collection of Python scripts crafted to automate and optimize a wide range of tasks frequently encountered in DevOps and systems operations. This repository offers efficient, reusable, and production-ready code to support your development, automation, and infrastructure management needs.
 
