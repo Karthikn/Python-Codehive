@@ -50,7 +50,6 @@ Once the repository is cloned, navigate to the specific project directory or scr
 **Codehive** encompasses a variety of projects, each contributing to the overarching theme of automation and system management. Below is a glimpse of the projects available:
 
 - **Password Strength Validator**: A script that evaluates the strength of a password against industry-standard security criteria.
-- **CPU Usage Monitor**: Continuously monitors CPU load and provides alerts if the usage exceeds predefined thresholds.
 - **Configuration File Parser**: A robust utility to read, parse, and save configuration data in a structured JSON format for further use.
 - **File Backup Automation**: A utility for backing up files from a source directory to a destination directory, with intelligent file handling to avoid overwriting and maintain uniqueness.
 
