@@ -6,7 +6,7 @@ def check_password_strength(password: str) -> tuple[bool, list]:
     has_upper, has_lower, has_digit, has_special = False, False, False, False
     special_chars = "!@#$%^&*(),.?\":{}|<>"
     
-    # Check if password meets minimum length 
+    # Check if password meets minimum length
     if len(password) < 8:
         failed_criteria.append("Password must be at least 8 characters long")
     
@@ -42,7 +42,8 @@ def main():
     print("- Contains at least one special character")
     print("------------------------")
 
-    # Continuously ask for a password until 'q' is entered
+    # Continuously ask for a password until 'q' is entered 
+    
     while True:
         password = input("\nEnter a password to check (or 'q' to quit): ")
 
@@ -64,5 +65,5 @@ def main():
 
 
 if __name__ == "__main__":
-    # Start the password strength validation
+    # Start the password strength checker
     main()
