@@ -1,5 +1,5 @@
 
-# Configuration Manager and API
+# Configuration Manager and API 
 
 This project provides a comprehensive solution for managing application configurations. It parses configuration files, stores them in a SQLite database, and serves them via a RESTful Flask API. The implementation ensures secure handling of sensitive data, supports multiple configuration sections, and enables retrieval of the latest configurations.
 
