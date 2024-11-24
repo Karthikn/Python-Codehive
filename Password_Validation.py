@@ -6,7 +6,7 @@ def check_password_strength(password: str) -> tuple[bool, list]:
     has_upper, has_lower, has_digit, has_special = False, False, False, False
     special_chars = "!@#$%^&*(),.?\":{}|<>"
     
-    # Check if password meets minimum length
+    # Check if password meets minimum length 
     if len(password) < 8:
         failed_criteria.append("Password must be at least 8 characters long")
     
